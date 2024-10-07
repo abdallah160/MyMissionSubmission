@@ -1,0 +1,61 @@
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 10px;
+    z-index: 10;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+article {
+    width: 60%;
+    background-color: #E0E0E0;
+    margin: 20px auto;
+    padding: 15px;
+    z-index: 1;
+}
+
+/* Sidebar */
+aside {
+    width: 30%;
+    background-color: #D0D0D0;
+    padding: 15px;
+    margin: 20px auto;
+    z-index: 2;
+    position: relative;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #C0C0C0;
+    padding: 10px;
+    text-align: center;
+    z-index: 5;
+}
+
+/* Sticky Navigation Bar */
+nav {
+    position: sticky;
+    top: 70px; 
+    background-color: #ccc;
+    padding: 10px;
+    z-index: 9;
+}
+
+ul li {
+    margin: 10px 0;
+}
